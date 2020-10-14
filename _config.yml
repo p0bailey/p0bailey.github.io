@@ -1,0 +1,19 @@
+# Welcome to Jekyll!
+
+title: bailey.st
+email: phillip@bailey.st
+description: >- # this means to ignore newlines until "baseurl:"
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.bailey.st" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  p0bailey
+
+# Build settings
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-remote-theme
+
+remote_theme: ngzhio/jekyll-theme-hamilton
