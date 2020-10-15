@@ -8,6 +8,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.bailey.st" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  p0bailey
 
+google_analytics: UA-180223707-1
+disqus: baileyst
+
+skin: daylight
+
 # Build settings
 
 plugins:
