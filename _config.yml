@@ -15,8 +15,6 @@ skin: daylight
 
 
 
-# Build settings
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
