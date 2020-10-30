@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Terraform cloud remote state demystified."
-date:   2020-10-30 06:36:55 +0100
+date:   2020-10-30 16:36:55 +0100
 tags: [devops,automation,terraform]
 ---
 A bit of history.
