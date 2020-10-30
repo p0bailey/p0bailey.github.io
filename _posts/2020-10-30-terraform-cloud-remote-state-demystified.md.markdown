@@ -4,11 +4,11 @@ title:  "Terraform cloud remote state demystified."
 date:   2020-10-30 16:36:55 +0100
 tags: [devops,automation,terraform]
 ---
-A bit of history.
-
-Since I started to use terraform back in 2015 (the old good days :), the state management has been quite painfull for individuals and teams. The biggest concerns  about state management were state corruption, state leak (usually trough a git public repo) and state deletion, unintentional or intentional. Then terraform remote state S3 backend came along, what I day.
+A bit of history. Since I started to use terraform back in 2015 (good old  days), the state management has been quite painful for individuals and teams. The biggest concerns  about state management were state corruption, state leak (usually trough a git public repo) and state deletion, unintentional or intentional. Then terraform remote state S3 backend came along, what I day.
 
 With this little piece of configuration a new world was outside there. 😂
+
+---
 
 ```
 terraform {
@@ -24,7 +24,7 @@ No more tfstate files around, then State Locking arrived and no more message on 
 
 Today
 
-HashiCorp evolve its software tools around the users need allowing to use and consume complex systems with a joyfull user experience. From the state file sitting on laptop filesystem, to a remote S3 bucket, today we have Terraform Cloud.
+HashiCorp evolve its software tools around the users need allowing to use and consume complex systems with a joyful user experience. From the state file sitting on laptop filesystem, to a remote S3 bucket, today we have Terraform Cloud.
 
 About Terraform Cloud
 
