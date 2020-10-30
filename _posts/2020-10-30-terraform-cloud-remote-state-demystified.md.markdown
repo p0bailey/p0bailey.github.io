@@ -6,7 +6,6 @@ tags: [devops,automation,terraform]
 ---
 A bit of history.
 
-
 Since I started to use terraform back in 2015 (the old good days :), the state management has been quite painfull for individuals and teams. The biggest concerns  about state management were state corruption, state leak (usually trough a git public repo) and state deletion, unintentional or intentional. Then terraform remote state S3 backend came along, what I day.
 
 With this little piece of configuration a new world was outside there. 😂
