@@ -4,7 +4,7 @@ title:  "Terraform cloud remote state demystified."
 date:   2020-10-30 16:36:55 +0100
 tags: [devops,automation,terraform]
 ---
-A bit of history. Since I started to use terraform back in 2015 (good old  days), the state management has been quite painful for individuals and teams. The biggest concerns  about state management were state corruption, state leak (usually trough a git public repo) and state deletion, unintentional or intentional. Then terraform remote state S3 backend came along, what I day.
+A bit of history..... Since I started to use terraform back in 2015 (good old  days), the state management has been quite painful for individuals and teams. The biggest concerns  about state management were state corruption, state leak (usually trough a git public repo) and state deletion, unintentional or intentional. Then terraform remote state S3 backend came along, what I day.
 
 With this little piece of configuration a new world was outside there. 😂
 
@@ -49,6 +49,8 @@ Login into https://app.terraform.io
 <img src="/media/10-2020/tf3.png" width="800"/>
 
 4. Terraform backend configuration
+
+For your convenience please find all scripts here: https://github.com/p0bailey/blog-examples/tree/main/terraform-cloud-state
 
 Create a provider.tf replacing organisation and workspace name with yours.
 
