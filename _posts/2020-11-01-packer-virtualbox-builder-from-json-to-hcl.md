@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Packer Virtualbox builder, from json to hcl"
-date:   2020-11-01 10:30:00 +0100
+date:   2020-11-01 08:30:00 +0100
 tags: [devops,automation,packer]
 ---
 [Packer](https://www.packer.io/) is a free and open source tool to create golden machine images for various
