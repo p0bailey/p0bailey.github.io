@@ -1,0 +1,56 @@
+title: www.bailey.st
+description: My weblog
+author: Phillip Bailey
+github: https://github.com/p0bailey
+about:
+disqus_shortname: baileyst
+google_analytics: UA-180223707-1
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    # - icon: fa-facebook
+    #   link: "#"
+    # - icon: fa-twitter
+    #   link: "#"
+    # - icon: fa-linkedin
+    #   link: "#"
+    # - icon: fa-stack-exchange
+    #   link: "#"
+    - icon: fa-github
+      link: "https://github.com/p0bailey"
+
+# share:
+#   twitter_username: github.io
+#   fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /about/
+    # - text: My Projects
+    #   url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://www.bailey.st"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
