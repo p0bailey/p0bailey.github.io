@@ -16,6 +16,8 @@ London (UK)
 phillip[at}bailey.st
 ```
 
+[https://github.com/p0bailey](https://github.com/p0bailey)
+
 Always eager to learn about new techniques and technologies to support business or organisation goals with high efficiency and value for customers.
 
 If you would like to work with me you can hire me through my company, Stack42 Ltd.
@@ -44,13 +46,3 @@ gpg –keyserver pgp.mit.edu –recv-key 0x908929FD
 
 The fingerprint of the key is:
 E2BA E549 9BB8 D04B 4D7D  868F B796 2061 9089 29FD
-
-#### Projects.
-
-[https://atlas.hashicorp.com/p0bailey/](https://app.vagrantup.com/p0bailey/)
-
-[https://galaxy.ansible.com/p0bailey/](https://galaxy.ansible.com/p0bailey/)
-
-[https://hub.docker.com/u/p0bailey/](https://hub.docker.com/u/p0bailey/)
-
-[https://forge.puppet.com/pbailey](https://forge.puppet.com/pbailey)
