@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Easily switch terraform version with tfswitch"
+title:  "How to easily switch terraform version with tfswitch"
 date:   2020-11-07 18:30:00 +0100
 tags: [devops,automation,terraform]
 ---
