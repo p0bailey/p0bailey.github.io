@@ -46,11 +46,13 @@ NBAtypDgzSyz6AsAAAAPcGhpbGxpcEBwaGlsbGlwAQIDBA==
 -----END OPENSSH PRIVATE KEY-----
 ```
 
-Without going into any sophisticated attack, let's assume these two scenarios.
+Without going into any sophisticated attack, let's assume these three real life scenarios.
 
 **1)** Accidental commit into a corporate SCM or even worse into a public one, GitHub, GitLab, BitBucket, you name it.
 
-**2)** Your computer gets backed up to a remote server.
+**2)** Your laptop without full hard drive encryption gets nicked from your car, home or in a pub.
+
+**3)** Your computer gets backed up to a remote server.
 Therefore, along with your favourite holiday  pictures your unencrypted SSH private keys will be stored in the backup files. Anyone having access to the backup server can retrieve and use/abuse your keys with dire consequences. There are many tools and application to store securely SSH private keys and my favourite one is  [Gopass](https://www.gopass.pw/), a neat CLI password manager with advanced capabilities such YAML support, password leak checker,  multi-line secrets.    
 
 Requirements:
