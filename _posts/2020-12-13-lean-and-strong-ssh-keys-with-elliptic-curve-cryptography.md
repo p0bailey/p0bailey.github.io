@@ -318,9 +318,9 @@ phillip@debian
 
 ## Practical benefits of ed25519
 
-In the old days we used to have a handful of servers sitting into a datacenter and 
+In the old days we used to have a handful of servers sitting into a datacenter and
 managed by scripts or eventually by a provisioning system. Usually the SSH keys were generated at the beginning of the setup and never changed or rotate until the server decommissioning, usually 2/3 years. Today, with cloud, containers, IOT technologies we deal
-with scalable, distribute systems in the order of thousand or even million servers and containers. Let's assume we
+with scalable, distribute systems in the order of thousand or even million servers and containers at a given time. Let's assume we
 have to generate, store and distribute SSH keys with such scale and speed, a 256 bytes key would be much more convenient and efficient than a 2048 or 4096 bytes.
 
 In short, ed25519 features:
