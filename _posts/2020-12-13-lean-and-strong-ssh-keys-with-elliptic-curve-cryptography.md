@@ -323,7 +323,7 @@ managed by scripts or eventually by a provisioning system. Usually the SSH keys 
 with scalable, distribute systems in the order of thousand or even million servers and containers at a given time. Let's assume we
 have to generate, store and distribute SSH keys with such scale and speed, a 256 bytes key would be much more convenient and efficient than a 2048 or 4096 bytes.
 
-In short, ed25519 features:
+**In short ed25519 features:**
 
 * Faster to verify with fast single-signature verification or even faster batch verification.
 
