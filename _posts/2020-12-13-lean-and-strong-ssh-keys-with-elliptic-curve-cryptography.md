@@ -323,6 +323,15 @@ managed by scripts or eventually by a provisioning system. Usually the SSH keys 
 with scalable, distribute systems in the order of thousand or even million servers and containers. Let's assume we
 have to generate, store and distribute SSH keys with such scale and speed, a 256 bytes key would be much more convenient and efficient than a 2048 or 4096 bytes.
 
+In short, ed25519 features:
+
+* Faster to verify with fast single-signature verification or even faster batch verification.
+
+* Fast key generation. Key generation is almost as fast as signing. There is a slight penalty for key generation to obtain a secure random number from the operating system; /dev/urandom under Linux costs about 6000 cycles.
+
+* Hash-function collisions do not break this system. This adds a layer of defense against the possibility of weakness in the selected hash function.
+
+* Small keys. Public keys consume only 32 bytes. The times for compression and decompression are again included.
 
 ## Conclusion
 
