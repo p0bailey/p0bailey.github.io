@@ -34,8 +34,8 @@ plugins:
   - jekyll-remote-theme
   - jekyll-paginate
 
-# url: "https://www.bailey.st"
-# baseurl: ""4
+url: "https://www.bailey.st"
+baseurl: ""
 
 paginate: 2
 
