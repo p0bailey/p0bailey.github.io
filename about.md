@@ -5,8 +5,6 @@ permalink: /about/
 ---
 
 
-
-
 If you need to send me sensitive information, please sign
 and encrypt your email by [GnuPG](https://www.gnupg.org/) using my [public key](https://pgp.mit.edu/pks/lookup?op=get&search=0x92E36BFF).
 
