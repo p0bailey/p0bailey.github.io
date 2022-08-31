@@ -35,7 +35,7 @@ plugins:
   - jekyll-paginate
 
   url: "https://www.bailey.st"
-  baseurl: ""4
+  baseurl: ""
 
 paginate: 2
 
