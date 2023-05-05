@@ -28,22 +28,43 @@ twitter_username:
 github_username:  p0bailey
 
 # Build settings
-remote_theme: vfvong/jekyll-theme-tao
+remote_theme: daattali/beautiful-jekyll
 
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
+  - jekyll-sitemap
 
 url: "https://www.bailey.st"
 baseurl: ""
 
 paginate: 2
 
-categories_path: /categories/
-tags_path: /tags/
+# categories_path: /categories/
+# tags_path: /tags/
 
-disqus_shortname: baileyst
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
+
+disqus: baileyst
 google_analytics: G-QKS0MNLLSK
+
+navbar-links:
+  About Me: "about"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
